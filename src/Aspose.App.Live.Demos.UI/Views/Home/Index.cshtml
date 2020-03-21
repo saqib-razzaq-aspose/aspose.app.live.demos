@@ -1,0 +1,67 @@
+﻿
+@model  LandingPageModel
+
+@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if ((Model.Product != null) && (Model.Product == "words"))
+{
+	@Html.Partial("AsposeProducts/AsposeWords")
+}
+else if ((Model.Product != null) && (Model.Product == "3d"))
+{
+	@Html.Partial("AsposeProducts/Aspose3d")
+}
+else if ((Model.Product != null) && (Model.Product == "cad"))
+{
+	@Html.Partial("AsposeProducts/AsposeCad")
+}
+else if ((Model.Product != null) && (Model.Product == "cells"))
+{
+	@Html.Partial("AsposeProducts/AsposeCells")
+}
+else if ((Model.Product != null) && (Model.Product == "diagram"))
+{
+	@Html.Partial("AsposeProducts/AsposeDiagram")
+}
+else if ((Model.Product != null) && (Model.Product == "email"))
+{
+	@Html.Partial("AsposeProducts/AsposeEmail")
+}
+else if ((Model.Product != null) && (Model.Product == "gis"))
+{
+	@Html.Partial("AsposeProducts/AsposeGis")
+}
+else if ((Model.Product != null) && (Model.Product == "html"))
+{
+	@Html.Partial("AsposeProducts/AsposeHtml")
+}
+else if ((Model.Product != null) && (Model.Product == "imaging"))
+{
+	@Html.Partial("AsposeProducts/AsposeImaging")
+}
+else if ((Model.Product != null) && (Model.Product == "note"))
+{
+	@Html.Partial("AsposeProducts/AsposeNote")
+}
+else if ((Model.Product != null) && (Model.Product == "page"))
+{
+	@Html.Partial("AsposeProducts/AsposePage")
+}
+else if ((Model.Product != null) && (Model.Product == "pdf"))
+{
+	@Html.Partial("AsposeProducts/AsposePDF")
+}
+else if ((Model.Product != null) && (Model.Product == "psd"))
+{
+	@Html.Partial("AsposeProducts/AsposePSD")
+}
+else if ((Model.Product != null) && (Model.Product == "slides"))
+{
+	@Html.Partial("AsposeProducts/AsposeSlides")
+}
+else if ((Model.Product != null) && (Model.Product == "tasks"))
+{
+	@Html.Partial("AsposeProducts/AsposeTasks")
+}

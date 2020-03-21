@@ -1,0 +1,245 @@
+﻿
+@model  LandingPageModel
+
+@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="body-content home">
+	<div class="container-fluid static_header header3 filefomatheader">
+		<div class="container headertitle">
+			<div class="row">
+				<div class="col-md-6 headertext">
+					<h1>@Model.Resources["ApplicationTitle"]</h1>
+					<h4>@Model.Resources["ApplicationTitle2"] </h4>
+					<div class="iconsection">
+						<div class="iconformats">
+							<img src="~/img/icon-bmp.png" />
+							<img src="~/img/icon-doc.png" />
+							 <img src="~/img/icon-emf.png" />
+							<img src="~/img/icon-jpg.png" />
+							 <img src="~/img/icon-html.png" />
+							 <img src="~/img/icon-pdf.png" />
+							 <img src="~/img/icon-xls.png" />
+							 <img src="~/img/icon-svg.png" />
+							 <img src="~/img/icon-xps.png" />
+							 <img src="~/img/icon-tiff.png" />
+						</div>
+						<img src="~/img/asposetoolsnew.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/container -->
+	</div>
+
+	<div class="container-fluid productfamilypage bg-white">
+		<div class="row">
+			<div class="container tc">
+				<div class="clearfix spacer2">&nbsp;</div>
+				<div class="col-lg-4 productfamily_box">
+					<div class="productfamilytitle">
+						<div class="imgblock">
+							<img src="~/img/aspose_words-for-net.png" alt="Aspose.Words" />
+						</div>
+						<a href=" @String.Concat( @Model.UIBasePath + "words")">
+							<span class="spanclass"><em>@Model.Resources["AsposeWords"] </em><b>@Model.Resources["ProductFamily"] </b></span><br />
+							<br />
+							<br />
+							<em>@Model.Resources["WordsPageSubHeading"].</em>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 productfamily_box">
+					<div class="productfamilytitle">
+						<div class="imgblock">
+							<img src="~/img/aspose_cells-for-net.png" alt="Aspose.Cells" />
+						</div>
+						<a href=" @String.Concat( @Model.UIBasePath + "cells")">
+							<span class="spanclass"><em>@Model.Resources["AsposeCells"] </em><b>@Model.Resources["ProductFamily"] </b></span><br />
+							<br />
+							<br />
+							<em>@Model.Resources["CellsPageSubHeading"].</em>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 productfamily_box">
+					<div class="productfamilytitle">
+						<div class="imgblock">
+							<img src="~/img/aspose_pdf-for-net-min.png" alt="Aspose.PDF" />
+						</div>
+						<a href=" @String.Concat( @Model.UIBasePath + "pdf")">
+							<span class="spanclass"><em>@Model.Resources["AsposePdf"]</em><b>@Model.Resources["ProductFamily"] </b></span><br />
+							<br />
+							<br />
+							<em>@Model.Resources["PDFPageSubHeading"].</em>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 productfamily_box">
+					<div class="productfamilytitle">
+						<div class="imgblock">
+							<img src="~/img/aspose_slides-for-net-min.png" alt="Aspose.Slides" />
+						</div>
+						<a href=" @String.Concat( @Model.UIBasePath + "slides")">
+							<span class="spanclass"><em>@Model.Resources["AsposeSlides"]</em><b>@Model.Resources["ProductFamily"] </b></span><br />
+							<br />
+							<br />
+							<em>@Model.Resources["SlidesPageSubHeading"].</em>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 productfamily_box">
+					<div class="productfamilytitle">
+						<div class="imgblock">
+							<img src="~/img/aspose_email-for-net-min.png" alt="Aspose.Email" />
+						</div>
+						<a href=" @String.Concat( @Model.UIBasePath + "email")">
+							<span class="spanclass"><em>@Model.Resources["AsposeEmail"]</em><b>@Model.Resources["ProductFamily"] </b></span><br />
+							<br />
+							<br />
+							<em>@Model.Resources["EmailPageSubHeading"].</em>
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 productfamily_box">
+					<div class="productfamilytitle">
+						<div class="imgblock">
+							<img src="~/img/aspose_imaging-for-net.png" alt="Aspose.Imaging" />
+						</div>
+						<a href=" @String.Concat( @Model.UIBasePath + "imaging")">
+							<span class="spanclass"><em>@Model.Resources["AsposeImaging"]</em><b>@Model.Resources["ProductFamily"] </b></span><br />
+							<br />
+							<br />
+							<em>@Model.Resources["ImagingPageSubHeading"].</em>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 productfamily_box">
+					<div class="productfamilytitle">
+						<div class="imgblock">
+							<img src="~/img/aspose_tasks-for-net.png" alt="Aspose.Tasks" />
+						</div>
+						<a href=" @String.Concat( @Model.UIBasePath + "tasks")">
+							<span class="spanclass"><em>@Model.Resources["AsposeTasks"] </em><b>@Model.Resources["ProductFamily"] </b></span><br />
+							<br />
+							<br />
+							<em>@Model.Resources["TasksPageSubHeading"].</em>
+						</a>
+					</div>
+				</div>
+				
+
+				<div class="col-lg-4 productfamily_box">
+					<div class="productfamilytitle">
+						<div class="imgblock">
+							<img src="~/img/aspose_diagram-for-net.png" alt="Aspose.Diagram" />
+						</div>
+						<a href=" @String.Concat( @Model.UIBasePath + "diagram")">
+							<span class="spanclass"><em>@Model.Resources["AsposeDiagram"]</em><b>@Model.Resources["ProductFamily"] </b></span><br />
+							<br />
+							<br />
+							<em>@Model.Resources["DiagramPageSubHeading"].</em>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 productfamily_box">
+					<div class="productfamilytitle">
+						<div class="imgblock">
+							<img src="~/img/aspose_note-for-net.png" alt="Aspose.Note" />
+						</div>
+						<a href=" @String.Concat( @Model.UIBasePath + "note")">
+							<span class="spanclass"><em>@Model.Resources["AsposeNote"] </em><b>@Model.Resources["ProductFamily"]</b></span><br />
+							<br />
+							<br />
+							<em>@Model.Resources["NotePageSubHeading"].</em>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 productfamily_box">
+					<div class="productfamilytitle">
+						<div class="imgblock">
+							<img src="~/img/aspose_3d-for-net.png" alt="Aspose.3d" />
+						</div>
+						<a href=" @String.Concat( @Model.UIBasePath + "3d")">
+							<span class="spanclass"><em>@Model.Resources["Aspose3D"]</em><b>@Model.Resources["ProductFamily"]</b></span><br />
+							<br />
+							<br />
+							<em>@Model.Resources["3dPageSubHeading"].</em>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 productfamily_box">
+					<div class="productfamilytitle">
+						<div class="imgblock">
+							<img src="~/img/aspose_cad-for-net.png" alt="Aspose.Cad" />
+						</div>
+						<a href=" @String.Concat( @Model.UIBasePath + "cad")">
+							<span class="spanclass"><em>@Model.Resources["AsposeCad"]</em><b>@Model.Resources["ProductFamily"] </b></span><br />
+							<br />
+							<br />
+							<em>@Model.Resources["CadPageSubHeading"].</em>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 productfamily_box">
+					<div class="productfamilytitle">
+						<div class="imgblock">
+							<img src="~/img/aspose_html-for-net.png" alt="Aspose.Html" />
+						</div>
+						<a href=" @String.Concat( @Model.UIBasePath + "html")">
+							<span class="spanclass"><em>@Model.Resources["AsposeHtml"] </em><b>@Model.Resources["ProductFamily"]</b></span><br />
+							<br />
+							<br />
+							<em>@Model.Resources["HtmlPageSubHeading"].</em>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4 productfamily_box">
+					<div class="productfamilytitle">
+						<div class="imgblock">
+							<img src="~/img/aspose_gis-for-net.png" alt="Aspose.Gis" />
+						</div>
+						<a href=" @String.Concat( @Model.UIBasePath + "gis")">
+							<span class="spanclass"><em>@Model.Resources["AsposeGis"]</em><b>@Model.Resources["ProductFamily"]</b></span><br />
+							<br />
+							<br />
+							<em>@Model.Resources["GisPageSubHeading"].</em>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 productfamily_box">
+					<div class="productfamilytitle">
+						<div class="imgblock">
+							<img src="~/img/aspose_psd-for-net.png" alt="Aspose.PSD" />
+						</div>
+						<a href=" @String.Concat( @Model.UIBasePath + "psd")">
+							<span class="spanclass"><em>@Model.Resources["AsposePSD"]</em><b>@Model.Resources["ProductFamily"]</b></span><br />
+							<br />
+							<br />
+							<em>@Model.Resources["PSDPageSubHeading"]</em>
+						</a>
+					</div>
+				</div>
+				
+				
+				<div class="col-lg-4 productfamily_box">
+					<div class="productfamilytitle">
+						<div class="imgblock">
+							<img src="~/img/aspose_page-for-net.png" alt="Aspose.Page" />
+						</div>
+						<a href=" @String.Concat( @Model.UIBasePath + "page")">
+							<span class="spanclass"><em>@Model.Resources["AsposePage"] </em><b>@Model.Resources["ProductFamily"]</b></span><br />
+							<br />
+							<br />
+							<em>@Model.Resources["AsposePageSubHeading"].</em>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="spacer"></div>
+
+</div>

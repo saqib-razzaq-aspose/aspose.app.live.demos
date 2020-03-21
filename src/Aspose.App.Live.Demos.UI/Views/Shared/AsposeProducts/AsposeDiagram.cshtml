@@ -1,0 +1,39 @@
+﻿@model LandingPageModel
+
+<div class="container-fluid header1 header2 minify-header appfamily-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1>@Model.Resources["DiagramPageMainTitle"] </h1>
+				<h4>@Model.Resources["DiagramPageSubHeading"] </h4>
+			</div>
+			<div class="col-md-4 tc">
+				<img class=" col-xs-12" src="../img/aspose-diagram-app.png" alt="Aspose.Diagram" width="320" />
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid productfamilypage bg-white pdb-5">
+	<div class="row">
+		<div class="container tc">
+			<div class="clearfix">&nbsp;</div>
+			<div class="clearfix">&nbsp;</div>
+			<h3>@string.Format(@Model.Resources["AsposeProductFamilyInclude"], @Model.Resources["AsposeDiagram"]) </h3>
+			<div class="clearfix">&nbsp;</div>
+			<div class="clearfix">&nbsp;</div>
+			<div class="col-lg-4 productfamily_box">
+				<div class="productfamilytitle">
+					<div class="imgblock">
+						<img src="../img/aspose_diagram-for-net.png" alt="Aspose.Diagram for .NET" />
+					</div>
+					<a href="/diagram/conversion"><span class="spanclass">@Model.Resources["AsposeDiagram"] @Model.Resources["AsposeProductFor"]  <em>Conversion</em></span><em>@Model.Resources["DiagramConversionDesc"] </em></a>
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+</div>
+<div class="spacer">&nbsp;</div>
+
