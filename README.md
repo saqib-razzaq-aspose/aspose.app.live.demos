@@ -1,7 +1,7 @@
-# Aspose.App
+# Aspose.App Live Demos
 
-This is a aspose.app, tools.foundation and tools.admin application repository.
-This solution contains front-end code as well as the beck-end api.
+This is a aspose.app live demos repository.
+This solution contains front-end code.
  
 # How to run
  
@@ -12,5 +12,5 @@ This solution contains front-end code as well as the beck-end api.
 - Install EntityFramework Tools - https://www.microsoft.com/en-us/download/details.aspx?id=40762
 - Install Visual Studio update 4 - https://www.microsoft.com/en-us/download/details.aspx?id=39305 
 - Install 2013 web tools for Visual Studio 2012 - https://www.microsoft.com/en-us/download/details.aspx?id=41532
- 3. Insure that the Tools.Foundation project is included in the "src" folder
+ 3. Set Default as start page
  4. Build the solution
